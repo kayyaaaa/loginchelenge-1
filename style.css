@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    display:flex;
+    margin:0;  
+    
+}
+
+@font-face {
+    font-family: "segoe ui";
+    src: url("font/Segoe\ UI.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("font/Roboto-Black.ttf");
+}
+
+.content{
+      
+    padding-top: 60px;
+    padding-bottom: 544px; 
+    margin: auto;
+    
+}
+.box{
+    width: 450px;
+    
+}
+
+h1{
+    color: black;
+    font-family: "roboto";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    margin-left: 9px;
+    
+}
+
+input{
+    display: block;
+    width: 450px;
+    height: 70px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+    margin-top: 25px;
+    padding-left:20px;
+    font-family: "segoe ui";
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.60);
+    outline: none;
+}
+
+.text{
+    margin-top: 36px; 
+}
+
+
+button{
+    width: 450px;
+    height: 60px;
+    border-radius: 76px;
+    background: #1DA1F2;
+    border:none;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: "segor ui";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+a{
+    margin-right: 308px;
+    text-decoration: none;
+    font-family: "segoe ui";
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    color:#1DA1F2 ;
+}
